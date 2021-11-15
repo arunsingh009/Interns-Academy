@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help{
+    height: 70vh;
+    width: 90%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 3px 4px 6px 8px rgba(128, 128, 128, 0.438); */
+    
+}
+.helpCard{
+    width: 480px;
+    height: 300px;
+    padding: 10px;
+    /* border: 2px solid black; */
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    box-shadow: 2px 2px 10px 5px rgb(148, 150, 148);
+    border-radius: 20px;
+    background-color: #fff;
+}
+.helpCard a{
+    height: 35px ;
+    width: 200px;
+    background-color: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    /* margin: auto; */
+    
+
+
+}
+.helpImg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.helpImg p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.helpCard img{
+    width:150px;
+    height: auto;
+    border-radius:100% ;
+}
+.helpCnt{
+    height: 200px;
+    width: 95%;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(221, 214, 202, 0.753);
+    
+}
+.helpCnt h4{
+    padding: 6%;
+}
